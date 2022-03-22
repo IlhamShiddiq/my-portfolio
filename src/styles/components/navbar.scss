@@ -1,0 +1,110 @@
+nav.nav {
+    width: 100%;
+    background-color: $white_color;
+    padding: 0 82px;
+    position: relative;
+
+    .head-nav {
+        margin: 24px 0;
+        font-size: 20px;
+    }
+
+    .hamburger-menu {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: none;
+        
+        button {
+            &:focus {
+                box-shadow: 0 0 0 0.25rem #be375039;
+            }
+        }
+    }
+
+    .link-nav {
+        width: 500px;
+        margin: 26px 0;
+        margin-left: auto;
+
+        .sub-head-nav {
+            display: none;
+            
+            .close-menu {
+                display: none;
+            }
+        }
+
+        a {
+            margin-left: 22px;
+            font-size: 16px;
+
+            &:hover {
+                text-shadow: 0 0 .5px rgb(0, 0, 0), 0 0 .5px rgb(0, 0, 0);
+            }
+        }
+    }
+}
+
+.shift-drawer {
+    left: 0 !important;
+    transition: left 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 866px) {
+    nav.nav {
+        padding: 0 25px;
+
+        .hamburger-menu {
+            display: inline-block !important;
+        }
+    
+        .link-nav {
+            width: 100%;
+            height: 100vh;
+            margin: 0;
+            position: fixed;
+            top: 0;
+            left: -100%;
+            transition: left 0.3s ease-in-out;
+            background-color: $primary_color;
+            text-align: center;
+
+            .sub-head-nav {
+                text-align: left;
+                margin-bottom: 20px;
+                position: relative;
+                display: block !important;
+
+                a {
+                    margin-top: 10px;
+                }
+
+                .close-menu {
+                    position: absolute;
+                    top: 10px;
+                    right: 20px;
+                    display: inline-block !important;
+                    
+                    button {
+                        color: $white_color;
+                        &:focus {
+                            box-shadow: 0 0 0 0.1rem rgba(177, 177, 177, 0.89);
+                        }
+                    }
+                }
+            }
+
+            a {
+                color: $white_color;
+                font-weight: lighter;
+                display: block;
+                padding: 15px 10px;
+
+                &:hover {
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
