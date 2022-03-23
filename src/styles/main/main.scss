@@ -26,3 +26,99 @@ body {
         }
     }
 }
+
+.page-2 {
+    justify-items: center;
+    justify-content: center;
+    
+    .steps {
+        height: 100vh;
+        
+        .step-wrapper {
+            display: inline-block;
+    
+            .step {
+                position: relative;
+                min-height: 1em;
+            }
+            
+            .role {
+                line-height: 1.5em;
+                font-size: 20px;
+            }
+        
+            .caption {
+                font-size: 14px;
+            }
+    
+            .type {
+                color: #9C9C9C;
+                font-size: 14px;
+            }
+        
+            .step + .step {
+                margin-top: 175px;
+            }
+        
+            .step > div.circle-warpper {
+                position: static;
+                height: 0;
+            }
+        
+            .step > div.experience-point-right {
+                position: absolute !important;
+                top: -275%;
+                left: 60px;
+                width: 450px;
+            }
+    
+            .step > div.experience-point-left {
+                position: absolute !important;
+                top: -275%;
+                left: -475px;
+                width: 450px;
+                text-align: right;
+            }
+        
+            .circle {
+                background: $pallette_color_2;
+                position: relative;
+                width: 38px;
+                height: 38px;
+                line-height: 1.5em;
+                border-radius: 100%;
+                color: $pallette_color_2;
+                text-align: center;
+            }
+        
+            .circle:after {
+                content: '';
+                position: absolute;
+                display: block;
+                right: 50%;
+                left: 50%;
+                height: 260%;
+                width: 1.5px;
+                transform: scale(1, 2);
+                transform-origin: 50% -20%;
+                background-color: $black_color;
+                z-index: -1;
+            }
+        
+            .step:last-child .circle:after {
+                display: none
+            }
+    
+            #first-step::before {
+                content: 'MY EXPERIENCES';
+                position: absolute;
+                top: -110px;
+                left: -135px;
+                width: 300px;
+                text-align: center;
+                font-size: 30px;
+                font-weight: bold;
+            }
+        }
+    }
+}
