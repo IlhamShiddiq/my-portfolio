@@ -23,6 +23,51 @@
             }
         }
     }
+
+    .page-2 {
+        .steps {
+            justify-content: left !important;
+
+            .step-wrapper {
+                width: 100%;
+                padding: 13px;
+
+                .step > div.experience-point-right {
+                    left: 50px;
+                    width: 85%;
+                }
+        
+                .step > div.experience-point-left {
+                    left: 50px;
+                    width: 85%;
+                    text-align: left;
+                }
+
+                .year {
+                    font-size: 14px;
+                }
+
+                .role {
+                    font-size: 16px;
+                }
+            
+                .caption {
+                    font-size: 14px;
+                }
+        
+                .type {
+                    font-size: 12px;
+                }
+
+                #first-step::before {
+                    top: -100px;
+                    left: 0;
+                    text-align: left;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
 }
 
 // Small devices (landscape phones, less than 768px)
@@ -47,6 +92,51 @@
 
             button {
                 margin-bottom: 30px;
+            }
+        }
+    }
+
+    .page-2 {
+        .steps {
+            justify-content: left !important;
+
+            .step-wrapper {
+                width: 100%;
+                padding: 18px;
+
+                .step > div.experience-point-right {
+                    left: 50px;
+                    width: 85%;
+                }
+        
+                .step > div.experience-point-left {
+                    left: 50px;
+                    width: 85%;
+                    text-align: left;
+                }
+
+                .year {
+                    font-size: 14px;
+                }
+
+                .role {
+                    font-size: 16px;
+                }
+            
+                .caption {
+                    font-size: 14px;
+                }
+        
+                .type {
+                    font-size: 12px;
+                }
+
+                #first-step::before {
+                    top: -100px;
+                    left: 0;
+                    text-align: left;
+                    font-size: 25px;
+                }
             }
         }
     }
@@ -77,6 +167,51 @@
             }
         }
     }
+
+    .page-2 {
+        .steps {
+            justify-content: left !important;
+
+            .step-wrapper {
+                width: 100%;
+                padding: 40px;
+
+                .step > div.experience-point-right {
+                    left: 50px;
+                    width: 85%;
+                }
+        
+                .step > div.experience-point-left {
+                    left: 50px;
+                    width: 85%;
+                    text-align: left;
+                }
+
+                .year {
+                    font-size: 14px;
+                }
+
+                .role {
+                    font-size: 16px;
+                }
+            
+                .caption {
+                    font-size: 14px;
+                }
+        
+                .type {
+                    font-size: 12px;
+                }
+
+                #first-step::before {
+                    top: -100px;
+                    left: 0;
+                    text-align: left;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
 }
 
 // Large devices (desktops, less than 1200px)
@@ -88,6 +223,44 @@
 
             img {
                 width: 100%;
+            }
+        }
+    }
+
+    .page-2 {
+        .steps {
+            .step-wrapper {
+                .step > div.experience-point-right {
+                    top: -300%;
+                    left: 50px;
+                    width: 375px;
+                }
+        
+                .step > div.experience-point-left {
+                    top: -300%;
+                    left: -395px;
+                    width: 375px;
+                }
+
+                .year {
+                    font-size: 14px;
+                }
+
+                .role {
+                    font-size: 17px;
+                }
+            
+                .caption {
+                    font-size: 14px;
+                }
+        
+                .type {
+                    font-size: 12px;
+                }
+
+                #first-step::before {
+                    font-size: 27px;
+                }
             }
         }
     }
