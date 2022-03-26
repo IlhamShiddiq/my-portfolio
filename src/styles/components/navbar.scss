@@ -69,6 +69,7 @@ nav.nav {
             transition: left 0.3s ease-in-out;
             background-color: $primary_color;
             text-align: center;
+            z-index: 99;
 
             .sub-head-nav {
                 text-align: left;
