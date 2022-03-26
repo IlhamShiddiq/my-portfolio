@@ -68,6 +68,26 @@
             }
         }
     }
+
+    .page-3 {
+        .skills-wrapper {
+            padding: 0;
+
+            h1.title {
+                text-align: center;
+            }
+
+            .button-navigations {
+                justify-content: center !important;
+            }
+
+            .card-skill {
+                .skill-content {
+                    width: 250px;
+                }
+            }
+        }
+    }
 }
 
 // Small devices (landscape phones, less than 768px)
@@ -136,6 +156,26 @@
                     left: 0;
                     text-align: left;
                     font-size: 25px;
+                }
+            }
+        }
+    }
+
+    .page-3 {
+        .skills-wrapper {
+            padding: 0;
+
+            h1.title {
+                text-align: center;
+            }
+
+            .button-navigations {
+                justify-content: center !important;
+            }
+
+            .card-skill {
+                .skill-content {
+                    width: 250px;
                 }
             }
         }
@@ -212,6 +252,12 @@
             }
         }
     }
+
+    .page-3 {
+        .skills-wrapper {
+            padding: 0;
+        }
+    }
 }
 
 // Large devices (desktops, less than 1200px)
@@ -260,6 +306,32 @@
 
                 #first-step::before {
                     font-size: 27px;
+                }
+            }
+        }
+    }
+
+    .page-3 {
+        .skills-wrapper {
+            padding: 60px;
+
+            .card-skill {
+                img.skill-image {
+                    height: 85px;
+                }
+
+                .skill-content {
+                    width: 140px;
+                    bottom: 0;
+                    right: 15px;
+
+                    h1 {
+                        font-size: 17px;
+                    }
+    
+                    p {
+                        font-size: 12px;
+                    }
                 }
             }
         }
