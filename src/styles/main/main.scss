@@ -200,3 +200,65 @@ body {
         }
     }
 }
+
+.page-4 {
+    .portfolios-wrapper {
+        padding: 0 200px;
+        width: 100%;
+            
+        .portfolios-row-wrapper {
+            position: relative;
+    
+            .portfolio-card {
+                width: 100%;
+                border-radius: 15px;
+                position: relative;
+    
+                img {
+                    height: 200px;
+                }
+            }
+    
+            #portfolio-1-wrapper {
+                background-color: #FFA3B3;
+    
+                #portfolio-1 {
+                    margin-left: 50px;
+                }
+            }
+    
+            #portfolio-2-wrapper {
+                background-color: #FFD9FF;
+                text-align: center;
+            }
+    
+            #portfolio-3-wrapper {
+                background-color: #FFD9E0;
+                text-align: center;
+            }
+    
+            #portfolio-4-wrapper {
+                background-color: #FEBEFF;
+                text-align: right;
+    
+                #portfolio-4 {
+                    margin-right: 75px;
+                }
+            }
+
+            &:before {
+                content: 'FIND MY PORTFOLIO HERE';
+                position: absolute;
+                top: -30px;
+                left: 0;
+            }
+
+            &:after {
+                content: 'CLICK PORTFOLIO TO SEE THE DETAILS';
+                position: absolute;
+                bottom: -10px;
+                right: 0;
+            }
+        }
+    }
+}
