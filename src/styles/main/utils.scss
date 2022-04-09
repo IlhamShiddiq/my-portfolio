@@ -4,6 +4,11 @@
     position: relative;
 }
 
+.page-fluid {
+    width: 100%;
+    position: relative;
+}
+
 .font-light {
     font-weight: 300;
 }
@@ -54,6 +59,8 @@
 .btn-social-media {
     width: 50px !important;
     height: 50px !important;
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+    background-color: $white_color;
 }
 
 .btn-primary-outline {
