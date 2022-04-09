@@ -262,3 +262,92 @@ body {
         }
     }
 }
+
+.page-5 {
+    .form-wrapper {
+        background-color: $primary_color;
+        padding: 0 90px;
+        box-sizing: border-box;
+
+        form {
+            justify-items: center;
+            justify-content: center;
+
+            input, textarea {
+                background-color: $primary_color;
+                border-color: $white_color;
+                color: $white_color;
+                border-radius: 13px;
+
+                &::placeholder {
+                    font-size: 15px;
+                    color: $white_color;
+                    opacity: 1;
+                }
+
+                &:-ms-input-placeholder {
+                    font-size: 15px;
+                    color: $white_color;
+                    opacity: 1;
+                }
+                
+                &::-ms-input-placeholder {
+                    font-size: 15px;
+                    color: $white_color;
+                    opacity: 1;
+                }
+
+                &:focus {
+                    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+                }
+            }
+
+            button {
+                width: 220px;
+                background-color: $white_color;
+                border: none;
+                color: $black_color;
+                margin: 0 auto;
+                border-radius: 13px;
+
+                &:focus {
+                    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+                }
+            }
+        }
+    }
+
+    .contact-wrapper {
+        position: relative;
+
+        .closing {
+            justify-items: center;
+            justify-content: center;
+            width: 85%;
+
+            .say-hi-label {
+                h1 {
+                    font-size: 70px;
+                    line-height: 65px;
+                }
+            }
+        }
+
+        .footer {
+            position: absolute;
+            display: inline-block;
+            width: 100%;
+            padding: 20px;
+            bottom: 0;
+            left: 0;
+
+            .mobile-socials {
+                display: none;
+            }
+
+            .copyright {
+                float: right;
+            }
+        }
+    }
+}
