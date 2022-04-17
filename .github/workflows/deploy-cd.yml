@@ -8,7 +8,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: executing remote ssh commands using password
         uses: appleboy/ssh-action@master
         with:
@@ -18,9 +17,8 @@ jobs:
           port: 22
           script: |
             cd ~/my-projects/my-portfolio
-            sudo su
-            git pull origin develop
-            docker build -t ilham-resume:latest .
-            docker-compose down
-            docker-compose up -d
-            curl -i -H "Accept: application/json" -H "Content-Type:application/json" -X POST --data "{\"content\": \"Bang, berhasil update kode di 'Web Portfolio',\n\nCommit Message: ${{ github.event.head_commit.message }}\"}" https://discord.com/api/webhooks/965129766808211497/zkp78Uo4sr6hsbQfmXjlZuqczCTuhclzwwu1LqsP0fS-9S9-QnCtnU4EjKhx99zGEtSm
+            sudo git pull origin develop
+            sudo docker build -t ilham-resume:latest .
+            sudo docker-compose down
+            sudo docker-compose up -d
+            curl -i -H "Accept: application/json" -H "Content-Type:application/json" -X POST --data "{\"content\": \"Bang, berhasil update kode di 'Web Portfolio',\n\nCommit Message: ${{ github.event.commits[0].message }}\"}" https://discord.com/api/webhooks/965129766808211497/zkp78Uo4sr6hsbQfmXjlZuqczCTuhclzwwu1LqsP0fS-9S9-QnCtnU4EjKhx99zGEtSm
