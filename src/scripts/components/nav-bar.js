@@ -8,6 +8,7 @@ class NavBar extends HTMLElement {
     const hamburgerButton = document.querySelector('#hamburger-menu');
     const closeButton = document.querySelector('#close-menu');
     const linkNav = document.querySelector('#link-nav');
+    const navMenu = document.querySelectorAll('.nav-menu');
 
     hamburgerButton.addEventListener('click', () => {
       linkNav.classList.toggle('shift-drawer');
@@ -16,6 +17,12 @@ class NavBar extends HTMLElement {
     closeButton.addEventListener('click', () => {
       linkNav.classList.remove('shift-drawer');
     });
+
+    navMenu.forEach((menu) => {
+      menu.addEventListener('click', () => {
+        linkNav.classList.remove('shift-drawer');
+      });
+    })
   }
 
   render() {
@@ -36,10 +43,10 @@ class NavBar extends HTMLElement {
                         </div>
                     </div>
                     <a href="/" class="no-decoration">About Me</a>
-                    <a href="#experiences" class="no-decoration">Experience</a>
-                    <a href="#skills" class="no-decoration">Skills</a>
-                    <a href="#portfolios" class="no-decoration">Portfolio</a>
-                    <a href="#contacts" class="no-decoration">Contacts</a>
+                    <a href="#experiences" class="nav-menu no-decoration">Experience</a>
+                    <a href="#skills" class="nav-menu no-decoration">Skills</a>
+                    <a href="#portfolios" class="nav-menu no-decoration">Portfolio</a>
+                    <a href="#contacts" class="nav-menu no-decoration">Contacts</a>
                 </div>
             </nav>
         </header>
