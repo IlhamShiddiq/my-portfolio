@@ -35,11 +35,11 @@ class NavBar extends HTMLElement {
                             <button class="btn"><i class="fa-solid fa-xmark"></i></button>
                         </div>
                     </div>
-                    <a href="#" class="no-decoration">About Me</a>
-                    <a href="#" class="no-decoration">Experience</a>
-                    <a href="#" class="no-decoration">Skills</a>
-                    <a href="#" class="no-decoration">Portfolio</a>
-                    <a href="#" class="no-decoration">Contacts</a>
+                    <a href="/" class="no-decoration">About Me</a>
+                    <a href="#experiences" class="no-decoration">Experience</a>
+                    <a href="#skills" class="no-decoration">Skills</a>
+                    <a href="#portfolios" class="no-decoration">Portfolio</a>
+                    <a href="#contacts" class="no-decoration">Contacts</a>
                 </div>
             </nav>
         </header>
