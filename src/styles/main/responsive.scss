@@ -5,10 +5,10 @@
             width: 100% !important;
             min-height: 100vh;
             font-size: 14px;
-            padding: 30px;
+            padding: 10px;
 
             img {
-                width: 88%;
+                width: 83%;
                 margin-bottom: 18px;
             }
 
@@ -31,6 +31,10 @@
             .step-wrapper {
                 width: 100%;
                 padding: 13px;
+
+                .step + .step {
+                    margin-top: 200px;
+                }
 
                 .step > div.experience-point-right {
                     left: 50px;
@@ -109,11 +113,19 @@
     .page-5 {
         .form-wrapper {
             padding: 0 40px;
+            height: 550px;
+
+            form {
+                height: 550px;
+            }
         }
     
         .contact-wrapper {
+            height: 750px;
             .closing {
                 width: 100%;
+                height: 750px;
+                margin-top: -50px;
 
                 .say-hi-label {
                     h1 {
@@ -124,9 +136,14 @@
             }
 
             .footer {
+                padding: 0;
+                text-align: center;
+
                 .copyright {
                     float: none;
                     display: block;
+                    margin-bottom: 15px;
+                    margin-left: 10px;
                 }
             }
         }
@@ -245,6 +262,11 @@
     .page-5 {
         .form-wrapper {
             padding: 0 40px;
+            height: 550px;
+
+            form {
+                height: 550px;
+            }
         }
     
         .contact-wrapper {
@@ -363,6 +385,11 @@
     .page-5 {
         .form-wrapper {
             padding: 0 150px;
+            height: 650px;
+
+            form {
+                height: 650px;
+            }
         }
     }
 }

@@ -266,12 +266,14 @@ body {
 .page-5 {
     .form-wrapper {
         background-color: $primary_color;
+        height: 100vh;
         padding: 0 90px;
         box-sizing: border-box;
 
         form {
             justify-items: center;
             justify-content: center;
+            height: 100vh;
 
             input, textarea {
                 background-color: $primary_color;
@@ -319,11 +321,13 @@ body {
 
     .contact-wrapper {
         position: relative;
+        height: 100vh;
 
         .closing {
             justify-items: center;
             justify-content: center;
             width: 85%;
+            height: 100vh;
 
             .say-hi-label {
                 h1 {
