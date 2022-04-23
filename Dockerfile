@@ -1,10 +1,8 @@
-FROM node:14.17.6-stretch-slim as builder
+FROM node:14.17.6-stretch-slim
 WORKDIR /app
 COPY . .
-RUN npm i yarn
-RUN yarn install
-RUN yarn build
+RUN npm i
+RUN npm i -g http-server
+RUN npm run build
 
-FROM nothinux/go-httpserver:latest
-COPY --from=builder /app/dist /static
-EXPOSE 8080
+CMD ["http-server", "./dist", "-p 8080"]
