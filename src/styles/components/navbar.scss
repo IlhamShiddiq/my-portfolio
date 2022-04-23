@@ -109,3 +109,20 @@ nav.nav {
         }
     }
 }
+
+@media (min-width: 1700px) {
+    nav.nav {
+        .head-nav {
+            margin: 24px 0;
+            font-size: 30px;
+        }
+    
+        .link-nav {
+            width: 660px;
+
+            a {
+                font-size: 24px;
+            }
+        }
+    }
+}

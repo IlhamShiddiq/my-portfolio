@@ -78,3 +78,20 @@
         box-shadow: 0 0 0 0.25rem #be375039;
     }
 }
+
+@media (min-width: 1700px) {
+    .btn-app {
+        font-size: 20px;
+        border-radius: 20px;
+    }
+
+    .btn-social-media {
+        width: 70px !important;
+        height: 70px !important;
+        padding-top: 10px;
+
+        i {
+            font-size: 30px;
+        }
+    }
+}

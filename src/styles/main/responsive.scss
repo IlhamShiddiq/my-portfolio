@@ -133,6 +133,10 @@
                         line-height: 53px;
                     }
                 }
+
+                .content {
+                    font-size: 15px;
+                }
             }
 
             .footer {
@@ -142,7 +146,7 @@
                 .copyright {
                     float: none;
                     display: block;
-                    margin-bottom: 15px;
+                    margin-bottom: 17px;
                     margin-left: 10px;
                 }
             }
@@ -278,6 +282,10 @@
                         font-size: 65px;
                         line-height: 53px;
                     }
+                }
+
+                .content {
+                    font-size: 15px;
                 }
             }
 
@@ -503,7 +511,192 @@
     }
 }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-    // 
+// Extra large devices (large desktops, 1700px and up)
+@media (min-width: 1700px) {
+    .page-1 {
+        .about-me {
+            width: 65%;
+            min-height: 87vh;
+
+            .role {
+                font-size: 20px;
+            }
+    
+            .title {
+                h1 {
+                    font-size: 50px;
+                }
+            }
+    
+            .content {
+                font-size: 20px;
+            }
+
+            .btn-app {
+                padding: 10px;
+            }
+        }
+    }
+
+    .page-2 {
+        .steps {
+            .step-wrapper {
+                .step + .step {
+                    margin-top: 220px;
+                }
+
+                .step > div.experience-point-right {
+                    width: 550px;
+                }
+        
+                .step > div.experience-point-left {
+                    left: -575px;
+                    width: 550px;
+                }
+
+                .circle {
+                    width: 44px;
+                    height: 44px;
+                }
+
+                .circle:after {
+                    height: 290%;
+                }
+
+                #first-step::before {
+                    top: -140px;
+                    left: -210px;
+                    width: 450px;
+                    font-size: 50px;
+                }
+
+                .year {
+                    font-size: 20px;
+                }
+
+                .role {
+                    font-size: 24px;
+                }
+
+                .caption {
+                    font-size: 18px;
+                }
+                .type {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .page-3 {
+        .skills-wrapper {
+            padding: 0 100px;
+    
+            h1.title {
+                font-size: 50px;
+            }
+    
+            .button-navigations {
+                button {
+                    font-size: 20px;
+                }
+            }
+    
+            .card-skill {
+                img.skill-image {
+                    height: 120px;
+                }
+    
+                .skill-content {
+                    h1 {
+                        font-size: 20px;
+                    }
+    
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .page-4 {
+        .portfolios-wrapper {
+            padding: 0 150px;
+                
+            .portfolios-row-wrapper {
+                .portfolio-card {
+                    img {
+                        height: 240px;
+                    }
+                }
+    
+                &:before {
+                    font-size: 22px;
+                    top: -40px;
+                }
+    
+                &:after {
+                    font-size: 22px;
+                    bottom: -20px;
+                }
+            }
+        }
+    }
+
+    .page-5 {
+        .form-wrapper {
+            background-color: $primary_color;
+            height: 100vh;
+            padding: 0 90px;
+            box-sizing: border-box;
+    
+            form {
+                input, textarea {
+                    padding: 15px;
+    
+                    &::placeholder {
+                        font-size: 20px;
+                    }
+    
+                    &:-ms-input-placeholder {
+                        font-size: 20px;
+                    }
+                    
+                    &::-ms-input-placeholder {
+                        font-size: 20px;
+                    }
+                }
+    
+                button {
+                    font-size: 20px;
+                    padding: 13px;
+                    width: 250px;
+                }
+            }
+        }
+    
+        .contact-wrapper {
+            .closing {
+                width: 75%;
+    
+                .say-hi-label {
+                    h1 {
+                        font-size: 90px;
+                        line-height: 85px;
+                    }
+                }
+
+                .content {
+                    font-size: 18px;
+                }
+            }
+    
+            .footer {
+                .copyright {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
 }
