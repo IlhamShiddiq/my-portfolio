@@ -76,13 +76,13 @@
                             </div>
                             <div class="col-12 col-md-6 col-lg-6">
                                 <div class="button-navigations d-flex justify-content-end">
-                                    <button class="btn button-navigation-left px-3 py-2 text-white" id="backend-skill">Backend</button>
-                                    <button class="btn button-navigation-middle px-3 py-2 text-white" id="frontend-skill">Frontend</button>
-                                    <button class="btn button-navigation-right px-3 py-2 text-white" id="other-skill">Others</button>
+                                    <button class="btn button-navigation-left px-3 py-2 text-white skill-tab" data-tab="backend">Backend</button>
+                                    <button class="btn button-navigation-middle px-3 py-2 text-white skill-tab" data-tab="frontend">Frontend</button>
+                                    <button class="btn button-navigation-right px-3 py-2 text-white skill-tab" data-tab="others">Others</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row" id="skills-container">
                             <skill-card class="col-12 col-md-6 col-lg-4 mb-3"
                                 img-src="./src/static/skill-images/javascript.png"
                                 skill="Javascript"
@@ -247,7 +247,5 @@
         </div>
         <social-medias></social-medias>
     </main>
-
-    <script>AOS.init();</script>
 </body>
 </html>

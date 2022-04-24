@@ -1,14 +1,22 @@
 class SkillCard extends HTMLElement {
-  connectedCallback() {
-    this.setAttribute();
-    this.render();
+  set imageSource(imageSource) {
+    this.img_src = imageSource
   }
 
-  setAttribute() {
-    this.img_src = this.getAttribute('img-src') || null;
-    this.skill = this.getAttribute('skill') || null;
-    this.level = this.getAttribute('level') || null;
-    this.since = this.getAttribute('since') || null;
+  set title(title) {
+    this.skill = title
+  }
+
+  set levelStatus(levelStatus) {
+    this.level = levelStatus
+  }
+
+  set sinceStatus(sinceStatus) {
+    this.since = sinceStatus
+  }
+
+  renderComponent() {
+    this.render();
   }
 
   render() {
