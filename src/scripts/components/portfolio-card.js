@@ -58,7 +58,7 @@ class PortfolioCard extends HTMLElement {
               }
             </style>
 
-            <div class="portfolio-card p-4" id="${this.image_id}-wrapper">
+            <div class="portfolio-card p-4" id="${this.image_id}-wrapper" data-aos="zoom-in">
               <img src="${this.img_src}" alt="${this.title}" id="${this.image_id}">
               <div class="overlay-clicker" id="${this.image_id}-overlay-clicker"></div>
               <div class="portfolio-card-detail portfolio-hide" id="${this.image_id}-detail">
