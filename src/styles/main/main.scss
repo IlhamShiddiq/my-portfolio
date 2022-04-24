@@ -169,35 +169,6 @@ body {
                 }
             }
         }
-
-        .card-skill {
-            width: 100%;
-            border-radius: 15px;
-            background-color: $primary_color;
-            position: relative;
-
-            img.skill-image {
-                height: 90px;
-            }
-
-            .skill-content {
-                position: absolute;
-                bottom: 10px;
-                right: 20px;
-                text-align: right;
-                width: 170px;
-
-                h1 {
-                    font-weight: 400;
-                    font-size: 20px;
-                }
-
-                p {
-                    font-weight: 300;
-                    font-size: 12px;
-                }
-            }
-        }
     }
 }
 
@@ -208,43 +179,6 @@ body {
             
         .portfolios-row-wrapper {
             position: relative;
-    
-            .portfolio-card {
-                width: 100%;
-                border-radius: 15px;
-                position: relative;
-    
-                img {
-                    height: 200px;
-                }
-            }
-    
-            #portfolio-1-wrapper {
-                background-color: #FFA3B3;
-    
-                #portfolio-1 {
-                    margin-left: 50px;
-                }
-            }
-    
-            #portfolio-2-wrapper {
-                background-color: #FFD9FF;
-                text-align: center;
-            }
-    
-            #portfolio-3-wrapper {
-                background-color: #FFD9E0;
-                text-align: center;
-            }
-    
-            #portfolio-4-wrapper {
-                background-color: #FEBEFF;
-                text-align: right;
-    
-                #portfolio-4 {
-                    margin-right: 75px;
-                }
-            }
 
             &:before {
                 content: 'FIND MY PORTFOLIO HERE';
