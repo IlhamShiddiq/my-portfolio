@@ -6,10 +6,10 @@ class SocialMedias extends HTMLElement {
   render() {
     this.innerHTML = `
         <div class="quick-social-medias d-flex flex-column">
-            <button class="btn btn-app btn-app-big btn-social-media btn-primary-outline"><i class="fa-brands fa-linkedin"></i></button>
-            <button class="btn btn-app btn-app-big btn-social-media btn-primary-outline"><i class="fa-brands fa-instagram"></i></button>
-            <button class="btn btn-app btn-app-big btn-social-media btn-primary-outline"><i class="fa-brands fa-gitlab"></i></button>
-            <button class="btn btn-app btn-app-big btn-social-media btn-primary-outline"><i class="fa-brands fa-github"></i></button>
+            <a href="https://linkedin.ilhamsh.id/" target="_blank" class="btn btn-app btn-app-big btn-social-media btn-primary-outline" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/ilham_shiddiq373/" target="_blank" class="btn btn-app btn-app-big btn-social-media btn-primary-outline" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://gitlab.com/IlhamShiddiq/" target="_blank" class="btn btn-app btn-app-big btn-social-media btn-primary-outline" rel="noopener noreferrer"><i class="fa-brands fa-gitlab"></i></a>
+            <a href="https://github.ilhamsh.id/" target="_blank" class="btn btn-app btn-app-big btn-social-media btn-primary-outline" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
         </div>
     `;
   }

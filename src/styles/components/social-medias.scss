@@ -7,8 +7,9 @@
     justify-items: center;
     justify-content: center;
 
-    button {
+    a {
         display: block !important;
+        padding-top: 8px;
         margin: 10px 0;
     }
 }
@@ -20,5 +21,13 @@
 
     .mobile-socials {
         display: inline !important;
+    }
+}
+
+@media (min-width: 1700px) {
+    .quick-social-medias {
+        a {
+            padding-top: 17px;
+        }
     }
 }

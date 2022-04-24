@@ -43,9 +43,9 @@ class NavBar extends HTMLElement {
                         </div>
                     </div>
                     <a href="/" class="no-decoration">About Me</a>
-                    <a href="#experiences" class="nav-menu no-decoration">Experience</a>
+                    <a href="#experiences" class="nav-menu no-decoration">Experiences</a>
                     <a href="#skills" class="nav-menu no-decoration">Skills</a>
-                    <a href="#portfolios" class="nav-menu no-decoration">Portfolio</a>
+                    <a href="#portfolios" class="nav-menu no-decoration">Portfolios</a>
                     <a href="#contacts" class="nav-menu no-decoration">Contacts</a>
                 </div>
             </nav>
