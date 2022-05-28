@@ -1,0 +1,33 @@
+.quick-social-medias {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-right: 30px;
+    height: 100vh;
+    justify-items: center;
+    justify-content: center;
+
+    a {
+        display: block !important;
+        padding-top: 8px;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 866px) {
+    .quick-social-medias {
+        display: none !important;
+    }
+
+    .mobile-socials {
+        display: inline !important;
+    }
+}
+
+@media (min-width: 1700px) {
+    .quick-social-medias {
+        a {
+            padding-top: 17px;
+        }
+    }
+}

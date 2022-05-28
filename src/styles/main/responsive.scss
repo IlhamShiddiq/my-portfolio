@@ -1,0 +1,664 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .page-1 {
+        .about-me {
+            width: 100% !important;
+            min-height: 100vh;
+            font-size: 14px;
+            padding: 10px;
+
+            img {
+                width: 83%;
+                margin-bottom: 18px;
+            }
+
+            .title {
+                h1 {
+                    font-size: 35px;
+                }
+            }
+
+            button {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    .page-2 {
+        .steps {
+            justify-content: left !important;
+
+            .step-wrapper {
+                width: 100%;
+                padding: 13px;
+
+                .step + .step {
+                    margin-top: 200px;
+                }
+
+                .step > div.experience-point-right {
+                    left: 50px;
+                    width: 85%;
+                }
+        
+                .step > div.experience-point-left {
+                    left: 50px;
+                    width: 85%;
+                    text-align: left;
+                }
+
+                .year {
+                    font-size: 14px;
+                }
+
+                .role {
+                    font-size: 16px;
+                }
+            
+                .caption {
+                    font-size: 14px;
+                }
+        
+                .type {
+                    font-size: 12px;
+                }
+
+                #first-step::before {
+                    top: -100px;
+                    left: 0;
+                    text-align: left;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+
+    .page-3 {
+        padding-bottom: 75px;
+        .skills-wrapper {
+            padding: 0;
+
+            h1.title {
+                text-align: center;
+            }
+
+            .button-navigations {
+                justify-content: center !important;
+            }
+
+            .card-skill {
+                .skill-content {
+                    width: 250px;
+                }
+            }
+        }
+    }
+
+    .page-4 {
+        padding-bottom: 75px;
+
+        .portfolios-wrapper {
+            padding: 0 15px;
+        }
+    }
+
+    .page-5 {
+        .form-wrapper {
+            padding: 0 40px;
+            height: 550px;
+
+            form {
+                height: 550px;
+            }
+        }
+    
+        .contact-wrapper {
+            height: 750px;
+            .closing {
+                width: 100%;
+                height: 750px;
+                margin-top: -50px;
+
+                .say-hi-label {
+                    h1 {
+                        font-size: 60px;
+                        line-height: 53px;
+                    }
+                }
+
+                .content {
+                    font-size: 15px;
+                }
+            }
+
+            .footer {
+                padding: 0;
+                text-align: center;
+
+                .copyright {
+                    float: none;
+                    display: block;
+                    margin-bottom: 17px;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .page-1 {
+        .about-me {
+            width: 100% !important;
+            min-height: 100vh;
+            font-size: 14px;
+            padding: 30px;
+
+            img {
+                width: 65%;
+                margin-bottom: 18px;
+            }
+
+            .title {
+                h1 {
+                    font-size: 35px;
+                }
+            }
+
+            button {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    .page-2 {
+        .steps {
+            justify-content: left !important;
+
+            .step-wrapper {
+                width: 100%;
+                padding: 18px;
+
+                .step > div.experience-point-right {
+                    left: 50px;
+                    width: 85%;
+                }
+        
+                .step > div.experience-point-left {
+                    left: 50px;
+                    width: 85%;
+                    text-align: left;
+                }
+
+                .year {
+                    font-size: 14px;
+                }
+
+                .role {
+                    font-size: 16px;
+                }
+            
+                .caption {
+                    font-size: 14px;
+                }
+        
+                .type {
+                    font-size: 12px;
+                }
+
+                #first-step::before {
+                    top: -100px;
+                    left: 0;
+                    text-align: left;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+
+    .page-3 {
+        padding-bottom: 75px;
+
+        .skills-wrapper {
+            padding: 0;
+
+            h1.title {
+                text-align: center;
+            }
+
+            .button-navigations {
+                justify-content: center !important;
+            }
+
+            .card-skill {
+                .skill-content {
+                    width: 250px;
+                }
+            }
+        }
+    }
+
+    .page-4 {
+        padding-bottom: 75px;
+
+        .portfolios-wrapper {
+            padding: 0 25px;
+        }
+    }
+
+    .page-5 {
+        .form-wrapper {
+            padding: 0 40px;
+            height: 550px;
+
+            form {
+                height: 550px;
+            }
+        }
+    
+        .contact-wrapper {
+            .closing {
+                width: 100%;
+
+                .say-hi-label {
+                    h1 {
+                        font-size: 65px;
+                        line-height: 53px;
+                    }
+                }
+
+                .content {
+                    font-size: 15px;
+                }
+            }
+
+            .footer {
+                .copyright {
+                    float: none;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .page-1 {
+        .about-me {
+            width: 90% !important;
+            min-height: 100vh;
+            font-size: 14px;
+            padding: 35px;
+
+            img {
+                width: 60%;
+                margin-bottom: 18px;
+            }
+
+            .title {
+                h1 {
+                    font-size: 35px;
+                }
+            }
+
+            button {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    .page-2 {
+        .steps {
+            justify-content: left !important;
+
+            .step-wrapper {
+                width: 100%;
+                padding: 40px;
+
+                .step > div.experience-point-right {
+                    left: 50px;
+                    width: 85%;
+                }
+        
+                .step > div.experience-point-left {
+                    left: 50px;
+                    width: 85%;
+                    text-align: left;
+                }
+
+                .year {
+                    font-size: 14px;
+                }
+
+                .role {
+                    font-size: 16px;
+                }
+            
+                .caption {
+                    font-size: 14px;
+                }
+        
+                .type {
+                    font-size: 12px;
+                }
+
+                #first-step::before {
+                    top: -100px;
+                    left: 0;
+                    text-align: left;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+
+    .page-3 {
+        .skills-wrapper {
+            padding: 0;
+        }
+    }
+
+    .page-4 {
+        .portfolios-wrapper {
+            padding: 0 15px;
+        }
+    }
+
+    .page-5 {
+        .form-wrapper {
+            padding: 0 150px;
+            height: 650px;
+
+            form {
+                height: 650px;
+            }
+        }
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .page-1 {
+        .about-me {
+            min-height: 85vh;
+            padding: 40px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .page-2 {
+        .steps {
+            .step-wrapper {
+                .step > div.experience-point-right {
+                    top: -300%;
+                    left: 50px;
+                    width: 375px;
+                }
+        
+                .step > div.experience-point-left {
+                    top: -300%;
+                    left: -395px;
+                    width: 375px;
+                }
+
+                .year {
+                    font-size: 14px;
+                }
+
+                .role {
+                    font-size: 17px;
+                }
+            
+                .caption {
+                    font-size: 14px;
+                }
+        
+                .type {
+                    font-size: 12px;
+                }
+
+                #first-step::before {
+                    font-size: 27px;
+                }
+            }
+        }
+    }
+
+    .page-3 {
+        .skills-wrapper {
+            padding: 60px;
+
+            .card-skill {
+                img.skill-image {
+                    height: 85px;
+                }
+
+                .skill-content {
+                    width: 140px;
+                    bottom: 0;
+                    right: 15px;
+
+                    h1 {
+                        font-size: 17px;
+                    }
+    
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    .page-4 {
+        .portfolios-wrapper {
+            padding: 0 110px;
+        }
+    }
+
+    .page-5 {
+        .form-wrapper {
+            padding: 0 50px;
+        }
+
+        .contact-wrapper {
+           .closing {
+                .say-hi-label {
+                    h1 {
+                        font-size: 55px;
+                        line-height: 47px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1700px and up)
+@media (min-width: 1700px) {
+    .page-1 {
+        .about-me {
+            width: 65%;
+            min-height: 87vh;
+
+            .role {
+                font-size: 20px;
+            }
+    
+            .title {
+                h1 {
+                    font-size: 50px;
+                }
+            }
+    
+            .content {
+                font-size: 20px;
+            }
+
+            .btn-app {
+                padding: 10px;
+            }
+        }
+    }
+
+    .page-2 {
+        .steps {
+            .step-wrapper {
+                .step + .step {
+                    margin-top: 220px;
+                }
+
+                .step > div.experience-point-right {
+                    width: 550px;
+                }
+        
+                .step > div.experience-point-left {
+                    left: -575px;
+                    width: 550px;
+                }
+
+                .circle {
+                    width: 44px;
+                    height: 44px;
+                }
+
+                .circle:after {
+                    height: 290%;
+                }
+
+                #first-step::before {
+                    top: -140px;
+                    left: -210px;
+                    width: 450px;
+                    font-size: 50px;
+                }
+
+                .year {
+                    font-size: 20px;
+                }
+
+                .role {
+                    font-size: 24px;
+                }
+
+                .caption {
+                    font-size: 18px;
+                }
+                .type {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .page-3 {
+        .skills-wrapper {
+            padding: 0 100px;
+    
+            h1.title {
+                font-size: 50px;
+            }
+    
+            .button-navigations {
+                button {
+                    font-size: 20px;
+                }
+            }
+    
+            .card-skill {
+                img.skill-image {
+                    height: 120px;
+                }
+    
+                .skill-content {
+                    h1 {
+                        font-size: 20px;
+                    }
+    
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .page-4 {
+        .portfolios-wrapper {
+            padding: 0 150px;
+                
+            .portfolios-row-wrapper {
+                &:before {
+                    font-size: 22px;
+                    top: -40px;
+                }
+    
+                &:after {
+                    font-size: 22px;
+                    bottom: -20px;
+                }
+            }
+        }
+    }
+
+    .page-5 {
+        .form-wrapper {
+            background-color: $primary_color;
+            height: 100vh;
+            padding: 0 90px;
+            box-sizing: border-box;
+    
+            form {
+                input, textarea {
+                    padding: 15px;
+    
+                    &::placeholder {
+                        font-size: 20px;
+                    }
+    
+                    &:-ms-input-placeholder {
+                        font-size: 20px;
+                    }
+                    
+                    &::-ms-input-placeholder {
+                        font-size: 20px;
+                    }
+                }
+    
+                button {
+                    font-size: 20px;
+                    padding: 13px;
+                    width: 250px;
+                }
+            }
+        }
+    
+        .contact-wrapper {
+            .closing {
+                width: 75%;
+    
+                .say-hi-label {
+                    h1 {
+                        font-size: 90px;
+                        line-height: 85px;
+                    }
+                }
+
+                .content {
+                    font-size: 18px;
+                }
+            }
+    
+            .footer {
+                .copyright {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

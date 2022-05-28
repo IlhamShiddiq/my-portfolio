@@ -1,3 +1,15 @@
-body {
-    background-color: red;
-}
+@import "~bootstrap/scss/bootstrap";
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+@import '~aos/dist/aos';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@300;400;500;700&display=swap');
+
+@import './main/main.scss';
+@import './main/responsive.scss';
+@import './main/utils.scss';
+@import './components/components';

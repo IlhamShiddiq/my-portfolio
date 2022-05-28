@@ -1,0 +1,144 @@
+{
+    "skills": [
+        {
+            "title": "Javascript",
+            "level": "Beginner",
+            "since": 2018,
+            "image_name": "javascript.png",
+            "tab_type": "backend"
+        },
+        {
+            "title": "Javascript",
+            "level": "Beginner",
+            "since": 2018,
+            "image_name": "javascript.png",
+            "tab_type": "backend"
+        },
+        {
+            "title": "Javascript",
+            "level": "Beginner",
+            "since": 2018,
+            "image_name": "javascript.png",
+            "tab_type": "backend"
+        },
+        {
+            "title": "Javascript",
+            "level": "Beginner",
+            "since": 2018,
+            "image_name": "javascript.png",
+            "tab_type": "backend"
+        },
+        {
+            "title": "Javascript",
+            "level": "Beginner",
+            "since": 2018,
+            "image_name": "javascript.png",
+            "tab_type": "backend"
+        },
+        {
+            "title": "Javascript",
+            "level": "Beginner",
+            "since": 2018,
+            "image_name": "javascript.png",
+            "tab_type": "backend"
+        },
+        {
+            "title": "Javascript",
+            "level": "Beginner",
+            "since": 2018,
+            "image_name": "javascript.png",
+            "tab_type": "backend"
+        },
+        {
+            "title": "Javascript",
+            "level": "Beginner",
+            "since": 2018,
+            "image_name": "javascript.png",
+            "tab_type": "backend"
+        },
+        {
+            "title": "Javascript",
+            "level": "Beginner",
+            "since": 2018,
+            "image_name": "javascript.png",
+            "tab_type": "backend"
+        },
+        {
+            "title": "Javascript",
+            "level": "Beginner",
+            "since": 2018,
+            "image_name": "javascript.png",
+            "tab_type": "frontend"
+        },
+        {
+            "title": "Javascript",
+            "level": "Beginner",
+            "since": 2018,
+            "image_name": "javascript.png",
+            "tab_type": "frontend"
+        },
+        {
+            "title": "Javascript",
+            "level": "Beginner",
+            "since": 2018,
+            "image_name": "javascript.png",
+            "tab_type": "frontend"
+        },
+        {
+            "title": "Javascript",
+            "level": "Beginner",
+            "since": 2018,
+            "image_name": "javascript.png",
+            "tab_type": "frontend"
+        },
+        {
+            "title": "Javascript",
+            "level": "Beginner",
+            "since": 2018,
+            "image_name": "javascript.png",
+            "tab_type": "frontend"
+        },
+        {
+            "title": "Javascript",
+            "level": "Beginner",
+            "since": 2018,
+            "image_name": "javascript.png",
+            "tab_type": "frontend"
+        },
+        {
+            "title": "Javascript",
+            "level": "Beginner",
+            "since": 2018,
+            "image_name": "javascript.png",
+            "tab_type": "frontend"
+        },
+        {
+            "title": "Javascript",
+            "level": "Beginner",
+            "since": 2018,
+            "image_name": "javascript.png",
+            "tab_type": "others"
+        },
+        {
+            "title": "Javascript",
+            "level": "Beginner",
+            "since": 2018,
+            "image_name": "javascript.png",
+            "tab_type": "others"
+        },
+        {
+            "title": "Javascript",
+            "level": "Beginner",
+            "since": 2018,
+            "image_name": "javascript.png",
+            "tab_type": "others"
+        },
+        {
+            "title": "Javascript",
+            "level": "Beginner",
+            "since": 2018,
+            "image_name": "javascript.png",
+            "tab_type": "others"
+        }
+    ]
+}

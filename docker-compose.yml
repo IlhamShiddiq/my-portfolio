@@ -1,0 +1,6 @@
+services:
+  ilham-resume:
+    container_name: ilham-resume
+    image: ilham-resume:latest
+    ports:
+      - 8080:8080

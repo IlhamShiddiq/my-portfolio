@@ -1,0 +1,98 @@
+.page {
+    width: 100%;
+    min-height: 768px;
+    position: relative;
+}
+
+.page-fluid {
+    width: 100%;
+    position: relative;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.font-regular {
+    font-weight: 400;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.shadow-small {
+    box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.25);
+}
+
+.shadow-medium {
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.25);
+}
+
+.no-decoration {
+    color: $black_color;
+    text-decoration: none;
+
+    &:hover {
+        color: $black_color;
+    }
+}
+
+.full-height {
+    min-height: 100vh;
+}
+
+.btn-app {
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.btn-app-big {
+    font-size: 20px;
+}
+
+.btn-social-media {
+    width: 50px !important;
+    height: 50px !important;
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+    background-color: $white_color;
+    padding-top: 8px;
+}
+
+.btn-primary-outline {
+    color: $primary_color;
+    border: solid 2px $primary_color;
+
+    &:hover {
+        color: $white_color;
+        background-color: $primary_color;
+    }
+
+    &:focus {
+        color: $white_color;
+        background-color: $primary_color;
+        box-shadow: 0 0 0 0.25rem #be375039;
+    }
+}
+
+@media (min-width: 1700px) {
+    .btn-app {
+        font-size: 20px;
+        border-radius: 20px;
+    }
+
+    .btn-social-media {
+        width: 70px !important;
+        height: 70px !important;
+        padding-top: 17px;
+
+        i {
+            font-size: 30px;
+        }
+    }
+}
