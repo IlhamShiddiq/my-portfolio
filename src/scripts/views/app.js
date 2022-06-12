@@ -1,4 +1,5 @@
 import { fetchSkillsByTab, attachToContainer } from './sections/skill-section'
+import attachExperienceToContainer from './sections/experience-section'
 import './utils/button-actions'
 
 class App {
@@ -9,6 +10,8 @@ class App {
   renderSkillSection() {
     const skills = fetchSkillsByTab('backend')
     attachToContainer(skills)
+
+    attachExperienceToContainer()
 
     return this
   }
