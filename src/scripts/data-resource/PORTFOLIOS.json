@@ -1,0 +1,48 @@
+{
+    "portfolios": [
+        {
+            "id": "cV1h4",
+            "image_url": "./src/static/portfolio-assets/Mockup 1.gif",
+            "title": "Portoflio 1",
+            "background_color": "#FFA3B3",
+            "image_align": "left",
+            "image_margin": "margin-left: 50px;",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tempor erat. Pellentesque habitant morbi tristique senectus et netus et.",
+            "github_url": "#",
+            "web_url": "#"
+        },
+        {
+            "id": "aCbh8",
+            "image_url": "./src/static/portfolio-assets/Mockup 3.gif",
+            "title": "Portoflio 2",
+            "background_color": "#FFD9FF",
+            "image_align": "center",
+            "image_margin": "",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tempor erat. Pellentesque habitant morbi tristique senectus et netus et.",
+            "github_url": "#",
+            "web_url": "#"
+        },
+        {
+            "id": "ghJ89",
+            "image_url": "./src/static/portfolio-assets/Mockup 4.gif",
+            "title": "Portoflio 3",
+            "background_color": "#FFD9E0",
+            "image_align": "center",
+            "image_margin": "",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tempor erat. Pellentesque habitant morbi tristique senectus et netus et.",
+            "github_url": "#",
+            "web_url": "#"
+        },
+        {
+            "id": "lkP90",
+            "image_url": "./src/static/portfolio-assets/Mockup 2.gif",
+            "title": "Portoflio 4",
+            "background_color": "#FEBEFF",
+            "image_align": "right",
+            "image_margin": "margin-right: 75px;",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tempor erat. Pellentesque habitant morbi tristique senectus et netus et.",
+            "github_url": "#",
+            "web_url": ""
+        }
+    ]
+}
