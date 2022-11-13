@@ -25,7 +25,7 @@ class SkillCard extends HTMLElement {
             <img src="${this.img_src}" alt="${this.skill}" class="skill-image">
             <div class="skill-content">
                 <h1 class="font-regular">${this.skill}</h1>
-                <p class="info">${this.level} - since ${this.since}</p>
+                <p class="info">since ${this.since}</p>
             </div>
         </div>
     `;
