@@ -22,13 +22,13 @@
 
         p {
             font-weight: 300;
-            font-size: 12px;
+            font-size: 14px;
         }
     }
 }
 
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
     .card-skill {
         .skill-content {
             width: 250px;
@@ -47,7 +47,7 @@
 
 // Medium devices (tablets, less than 992px)
 @media (min-width: 768px) and (max-width: 991.98px) {
-    // 
+    //
 }
 
 // Large devices (desktops, less than 1200px)

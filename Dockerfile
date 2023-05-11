@@ -1,4 +1,4 @@
-FROM node:14.17.6-stretch-slim
+FROM node:14.17.5
 WORKDIR /app
 COPY . .
 RUN npm i

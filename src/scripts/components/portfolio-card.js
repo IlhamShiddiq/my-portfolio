@@ -1,36 +1,26 @@
+/* eslint-disable class-methods-use-this */
 class PortfolioCard extends HTMLElement {
-  connectedCallback() {
-    this.setAttribute();
+  renderComponent() {
     this.setProjectUrl();
     this.render();
   }
 
-  setAttribute() {
-    this.img_src = this.getAttribute('img-src') || null;
-    this.image_id = this.getAttribute('image-id') || null;
-    this.title = this.getAttribute('title') || null;
-    this.background_color = this.getAttribute('background-color') || null;
-    this.image_align = this.getAttribute('image-align') || null;
-    this.image_margin = this.getAttribute('image-margin') || null;
-    this.summary = this.getAttribute('summary') || null;
-    this.github_url = this.getAttribute('github-url') || null;
-    this.web_url = this.getAttribute('web-url') || null;
+  set componentAttribute(data) {
+    this.img_src = data.img_src;
+    this.image_id = data.image_id;
+    this.title = data.title;
+    this.background_color = data.background_color;
+    this.image_align = data.image_align;
+    this.image_margin = data.image_margin;
+    this.summary = data.summary;
+    this.github_url = data.github_url;
+    this.web_url = data.web_url;
   }
 
-  setProjectUrl() {
-    let projectUrls = `<a href="${this.github_url}" class="btn btn-sm text-white close-button"><i class="fa-brands fa-github"></i></a>`;
-
-    if (this.web_url) {
-      projectUrls += `<a href="${this.web_url}" class="btn btn-sm text-white close-button mx-1"><i class="fa-solid fa-link"></i></a>`;
-    }
-
-    this.project_urls = projectUrls;
-  }
-
-  setPortfolioOnClick() {
-    const portoflio = document.querySelector(`#${this.image_id}-detail`);
-    const overlayClicker = document.querySelector(`#${this.image_id}-overlay-clicker`)
-    const closeButton = document.querySelector(`#${this.image_id}-close-button`);
+  set portfolioOnClick(imageId) {
+    const portoflio = document.querySelector(`#${imageId}-detail`);
+    const overlayClicker = document.querySelector(`#${imageId}-overlay-clicker`)
+    const closeButton = document.querySelector(`#${imageId}-close-button`);
 
     overlayClicker.addEventListener('click', () => {
       portoflio.classList.add('portfolio-display');
@@ -41,8 +31,16 @@ class PortfolioCard extends HTMLElement {
       portoflio.classList.add('portfolio-hide');
       portoflio.classList.remove('portfolio-display');
     });
+  }
 
-    return this;
+  setProjectUrl() {
+    let projectUrls = `<a href="${this.github_url}" class="btn btn-sm text-white close-button"><i class="fa-brands fa-github"></i></a>`;
+
+    if (this.web_url) {
+      projectUrls += `<a href="${this.web_url}" class="btn btn-sm text-white close-button mx-1"><i class="fa-solid fa-link"></i></a>`;
+    }
+
+    this.project_urls = projectUrls;
   }
 
   render() {
@@ -77,8 +75,6 @@ class PortfolioCard extends HTMLElement {
               </div>
             </div>
       `;
-
-    this.setPortfolioOnClick();
   }
 }
 

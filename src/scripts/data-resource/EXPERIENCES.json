@@ -1,0 +1,25 @@
+{
+    "experiences": [
+        {
+            "company": "OLibrary",
+            "role": "Fullstack Developer",
+            "working_time": "2020-2021",
+            "description": "OLibrary is a web application for library management (book, ebook, librarians, etc.), built with PHP Framework, Laravel and using MySQL DBMS. Working as a frontend, also backend.",
+            "job_type": "Project"
+        },
+        {
+            "company": "Dicoding Academy",
+            "role": "External Code Reviewer",
+            "working_time": "2021-Present",
+            "description": "Working as a code reviewer, make an assessment to submitted projects, also answer the forum discussion and provide solution, suggestion to student's submission.",
+            "job_type": "Flexitime Job"
+        },
+        {
+            "company": "PT Paninti Hub",
+            "role": "Backend Developer",
+            "working_time": "2021-Present",
+            "description": "Building a Restful API using PHP Framework, Laravel for many of projects. Also debugging and make sure the code more efficient and less query.",
+            "job_type": "Fulltime Job"
+        }
+    ]
+}

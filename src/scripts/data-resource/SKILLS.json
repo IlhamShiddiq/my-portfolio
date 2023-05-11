@@ -1,143 +1,75 @@
 {
     "skills": [
         {
+            "title": "PHP",
+            "since": 2018,
+            "image_name": "php.png",
+            "tab_type": "backend"
+        },
+        {
             "title": "Javascript",
-            "level": "Beginner",
             "since": 2018,
             "image_name": "javascript.png",
             "tab_type": "backend"
         },
         {
-            "title": "Javascript",
-            "level": "Beginner",
-            "since": 2018,
-            "image_name": "javascript.png",
+            "title": "Python",
+            "since": 2019,
+            "image_name": "python.png",
             "tab_type": "backend"
         },
         {
-            "title": "Javascript",
-            "level": "Beginner",
-            "since": 2018,
-            "image_name": "javascript.png",
+            "title": "Laravel",
+            "since": 2020,
+            "image_name": "laravel.png",
             "tab_type": "backend"
         },
         {
-            "title": "Javascript",
-            "level": "Beginner",
-            "since": 2018,
-            "image_name": "javascript.png",
+            "title": "ExpressJS",
+            "since": 2022,
+            "image_name": "expressjs.png",
             "tab_type": "backend"
         },
         {
-            "title": "Javascript",
-            "level": "Beginner",
-            "since": 2018,
-            "image_name": "javascript.png",
-            "tab_type": "backend"
-        },
-        {
-            "title": "Javascript",
-            "level": "Beginner",
-            "since": 2018,
-            "image_name": "javascript.png",
-            "tab_type": "backend"
-        },
-        {
-            "title": "Javascript",
-            "level": "Beginner",
-            "since": 2018,
-            "image_name": "javascript.png",
-            "tab_type": "backend"
-        },
-        {
-            "title": "Javascript",
-            "level": "Beginner",
-            "since": 2018,
-            "image_name": "javascript.png",
-            "tab_type": "backend"
-        },
-        {
-            "title": "Javascript",
-            "level": "Beginner",
-            "since": 2018,
-            "image_name": "javascript.png",
-            "tab_type": "backend"
-        },
-        {
-            "title": "Javascript",
-            "level": "Beginner",
-            "since": 2018,
-            "image_name": "javascript.png",
-            "tab_type": "frontend"
-        },
-        {
-            "title": "Javascript",
-            "level": "Beginner",
-            "since": 2018,
-            "image_name": "javascript.png",
-            "tab_type": "frontend"
-        },
-        {
-            "title": "Javascript",
-            "level": "Beginner",
-            "since": 2018,
-            "image_name": "javascript.png",
-            "tab_type": "frontend"
-        },
-        {
-            "title": "Javascript",
-            "level": "Beginner",
-            "since": 2018,
-            "image_name": "javascript.png",
-            "tab_type": "frontend"
-        },
-        {
-            "title": "Javascript",
-            "level": "Beginner",
-            "since": 2018,
-            "image_name": "javascript.png",
-            "tab_type": "frontend"
-        },
-        {
-            "title": "Javascript",
-            "level": "Beginner",
-            "since": 2018,
-            "image_name": "javascript.png",
-            "tab_type": "frontend"
-        },
-        {
-            "title": "Javascript",
-            "level": "Beginner",
-            "since": 2018,
-            "image_name": "javascript.png",
-            "tab_type": "frontend"
-        },
-        {
-            "title": "Javascript",
-            "level": "Beginner",
-            "since": 2018,
-            "image_name": "javascript.png",
+            "title": "Docker",
+            "since": 2019,
+            "image_name": "docker.png",
             "tab_type": "others"
         },
         {
-            "title": "Javascript",
-            "level": "Beginner",
-            "since": 2018,
-            "image_name": "javascript.png",
+            "title": "Git",
+            "since": 2019,
+            "image_name": "git.png",
             "tab_type": "others"
         },
         {
-            "title": "Javascript",
-            "level": "Beginner",
+            "title": "MySQL",
             "since": 2018,
-            "image_name": "javascript.png",
+            "image_name": "mysql.png",
             "tab_type": "others"
         },
         {
-            "title": "Javascript",
-            "level": "Beginner",
-            "since": 2018,
-            "image_name": "javascript.png",
+            "title": "PostgreSQL",
+            "since": 2021,
+            "image_name": "postgresql.png",
+            "tab_type": "others"
+        },
+        {
+            "title": "MongoDB",
+            "since": 2021,
+            "image_name": "mongodb.png",
+            "tab_type": "others"
+        },
+        {
+            "title": "Webpack",
+            "since": 2020,
+            "image_name": "webpack.png",
+            "tab_type": "others"
+        },
+        {
+            "title": "ReactJS",
+            "since": 2022,
+            "image_name": "reactjs.png",
             "tab_type": "others"
         }
     ]

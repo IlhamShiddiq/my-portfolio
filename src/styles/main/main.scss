@@ -30,48 +30,48 @@ body {
 .page-2 {
     justify-items: center;
     justify-content: center;
-    
+
     .steps {
         height: 100vh;
-        
+
         .step-wrapper {
             display: inline-block;
-    
+
             .step {
                 position: relative;
                 min-height: 1em;
             }
-            
+
             .role {
                 line-height: 1.5em;
                 font-size: 20px;
             }
-        
+
             .caption {
                 font-size: 14px;
             }
-    
+
             .type {
                 color: #9C9C9C;
                 font-size: 14px;
             }
-        
+
             .step + .step {
                 margin-top: 175px;
             }
-        
+
             .step > div.circle-warpper {
                 position: static;
                 height: 0;
             }
-        
+
             .step > div.experience-point-right {
                 position: absolute !important;
                 top: -275%;
                 left: 60px;
                 width: 450px;
             }
-    
+
             .step > div.experience-point-left {
                 position: absolute !important;
                 top: -275%;
@@ -79,7 +79,7 @@ body {
                 width: 450px;
                 text-align: right;
             }
-        
+
             .circle {
                 background: $pallette_color_2;
                 position: relative;
@@ -90,7 +90,7 @@ body {
                 color: $pallette_color_2;
                 text-align: center;
             }
-        
+
             .circle:after {
                 content: '';
                 position: absolute;
@@ -104,11 +104,11 @@ body {
                 background-color: $black_color;
                 z-index: -1;
             }
-        
+
             .step:last-child .circle:after {
                 display: none
             }
-    
+
             #first-step::before {
                 content: 'MY EXPERIENCES';
                 position: absolute;
@@ -152,20 +152,12 @@ body {
             }
 
             button.button-navigation-middle {
+                border-top-right-radius: 8px;
+                border-bottom-right-radius: 8px;
                 background-color: $pallette_color_5;
 
                 &:focus {
                     box-shadow: 0 0 0 0.25rem #f67c927b;
-                }
-            }
-
-            button.button-navigation-right {
-                border-top-right-radius: 8px;
-                border-bottom-right-radius: 8px;
-                background-color: $pallette_color_4;
-
-                &:focus {
-                    box-shadow: 0 0 0 0.25rem #e0597278;
                 }
             }
         }
@@ -176,7 +168,7 @@ body {
     .portfolios-wrapper {
         padding: 0 200px;
         width: 100%;
-            
+
         .portfolios-row-wrapper {
             position: relative;
 
@@ -226,7 +218,7 @@ body {
                     color: $white_color;
                     opacity: 1;
                 }
-                
+
                 &::-ms-input-placeholder {
                     font-size: 15px;
                     color: $white_color;
