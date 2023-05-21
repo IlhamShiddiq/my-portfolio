@@ -2,13 +2,13 @@ name: CD
 
 on:
   push:
-    branches: [ develop ]
+    branches: [ master ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: executing remote ssh commands using password
+      - name: executing remote ssh commands using username and private key
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}
@@ -17,7 +17,7 @@ jobs:
           port: 22
           script: |
             cd ~/my-projects/my-portfolio
-            sudo git pull origin develop
+            sudo git pull origin master
             sudo docker build -t ilham-resume:latest .
             sudo docker-compose down
             sudo docker-compose up -d
