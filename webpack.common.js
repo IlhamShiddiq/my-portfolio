@@ -2,7 +2,6 @@
 
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 
@@ -47,10 +46,6 @@ module.exports = {
       patterns: [
         { from: 'src/static', to: 'src/static' },
       ],
-    }),
-    new FaviconsWebpackPlugin({
-      logo: './src/static/images/favicon.svg',
-      cache: true,
     }),
     new CleanWebpackPlugin(),
   ],
