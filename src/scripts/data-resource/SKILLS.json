@@ -31,6 +31,12 @@
             "tab_type": "backend"
         },
         {
+            "title": "GoLang",
+            "since": 2022,
+            "image_name": "go.png",
+            "tab_type": "backend"
+        },
+        {
             "title": "Docker",
             "since": 2019,
             "image_name": "docker.png",
