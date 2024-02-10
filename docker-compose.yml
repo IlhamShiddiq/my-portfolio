@@ -1,5 +1,6 @@
 services:
   ilham-resume:
+    build: .
     container_name: ilham-resume
     image: ilham-resume:latest
     restart: always
