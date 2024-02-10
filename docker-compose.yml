@@ -2,5 +2,6 @@ services:
   ilham-resume:
     container_name: ilham-resume
     image: ilham-resume:latest
+    restart: always
     ports:
       - 8080:8080
